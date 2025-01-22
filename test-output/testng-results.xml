@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-18T19:10:00 IST" name="Default suite" finished-at="2025-01-18T19:10:07 IST" duration-ms="6853">
+    <groups>
+      <group name="RegressionTesting">
+        <method signature="LoginPageTest.setup()[pri:0, instance:TestLayer.LoginPageTest@48ae9b55]" name="setup" class="TestLayer.LoginPageTest"/>
+        <method signature="LoginPageTest.validateLoginFunctionality()[pri:0, instance:TestLayer.LoginPageTest@48ae9b55]" name="validateLoginFunctionality" class="TestLayer.LoginPageTest"/>
+      </group> <!-- RegressionTesting -->
+      <group name="setup">
+        <method signature="LoginPageTest.setup()[pri:0, instance:TestLayer.LoginPageTest@48ae9b55]" name="setup" class="TestLayer.LoginPageTest"/>
+      </group> <!-- setup -->
+      <group name="login">
+        <method signature="LoginPageTest.validateLoginFunctionality()[pri:0, instance:TestLayer.LoginPageTest@48ae9b55]" name="validateLoginFunctionality" class="TestLayer.LoginPageTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2025-01-18T19:10:00 IST" name="Default test" finished-at="2025-01-18T19:10:07 IST" duration-ms="6853">
+      <class name="TestLayer.LoginPageTest">
+        <test-method signature="setup()[pri:0, instance:TestLayer.LoginPageTest@48ae9b55]" started-at="2025-01-18T19:10:00 IST" name="setup" finished-at="2025-01-18T19:10:05 IST" duration-ms="4787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLoginFunctionality()[pri:0, instance:TestLayer.LoginPageTest@48ae9b55]" started-at="2025-01-18T19:10:05 IST" name="validateLoginFunctionality" depends-on-groups="setup" finished-at="2025-01-18T19:10:07 IST" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+      </class> <!-- TestLayer.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
